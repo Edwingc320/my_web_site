@@ -30,7 +30,7 @@ body{
 }
 .container_leyenda{
     color: black;
-    width: 10;
+    width: auto;
     height: 1000px;
     display: flex;
     justify-content: space-between;
@@ -39,8 +39,8 @@ body{
     margin-right: 5px;
 }
 .grafico{
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     background-image: conic-gradient(var(--color_facebook) 40%,
     var(--color_twitter) 40% 70%,
